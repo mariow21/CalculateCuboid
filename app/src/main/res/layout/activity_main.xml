@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Length"
+        android:inputType="number"
+        android:id="@+id/et_length"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Width"
+        android:inputType="number"
+        android:id="@+id/et_width"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:inputType="number"
+        android:id="@+id/et_height"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/et_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Volume"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Length"
+        android:backgroundTint="@color/teal_500"
+        android:id="@+id/btn_length"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Width"
+        android:backgroundTint="@color/teal_500"
+        android:id="@+id/btn_width"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:backgroundTint="@color/teal_500"
+        android:id="@+id/btn_height"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:backgroundTint="@color/teal_500"
+        android:id="@+id/btn_volume"/>
+
+</LinearLayout>
